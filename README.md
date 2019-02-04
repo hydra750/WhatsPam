@@ -1,0 +1,2 @@
+# WhatsPam
+Spam WhatsApp messages
