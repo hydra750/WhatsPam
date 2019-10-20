@@ -54,7 +54,7 @@ web.get('https://web.whatsapp.com/')
 print('\n\n[INFO] Connect your WhatsApp, and select the target')
 input('\nPress ENTER to proceed\n')
 print('\nSpamming {} ...'.format(mode))
-elem = web.find_element_by_css_selector('._2S1VP')
+elem = web.find_element_by_css_selector('[data-tab="1"]')
 
 i = 1
 if loop==0:
